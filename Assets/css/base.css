@@ -458,7 +458,6 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 900px;
-    background-image: url(/Assets/img/14.jpg);
     background-size: cover;
     position: relative;
 }
@@ -509,7 +508,6 @@ body{
     flex-direction: column;
     height: 600px;
     padding-bottom: 50px;
-    background-image: url(/Assets/img/7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom 10% right;
@@ -607,7 +605,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(/Assets/img/42.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
@@ -934,7 +931,6 @@ body{
 
 #footer{
     height: 650px;
-    background-image: url(/Assets/img/33.jpg);
     background-size:contain;
     background-position: center;
     margin-left: 120px;
