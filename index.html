@@ -18,7 +18,7 @@
             <img src="./Assets/img/logo.jpg" alt="">
         </div>
         <div class="left-menu__icon">
-            <div id="toggle">
+            <div id="toggle" class="mobilebtn">
                 
             </div>
             <p class="menu-text">MENU</p>
@@ -120,6 +120,96 @@
         </div>
     </div>
 
+    <div id="mobilemenu" class="mobile-config">
+        <div class="mobile-config__header">
+            <div class="mobile-config__header-search">
+                <div class="mobile-config__header-search-form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="商品名を入力">
+                </div>
+            </div>
+            <div class="mobile-config__header-body">
+                <span>ログイン</span>
+                <span>新規会員登録</span>
+                <span>ご利用ガイド</span>
+            </div>
+        </div>
+        <div class="mobile-config__body">
+            <div class="mobile-config__about">
+                <div class="mobile-config__content dropdown-btn">
+                    <p>About Coffee House</p>
+                    <span>コーヒーハウスを知る</span>
+                    <i></i>
+                </div>
+                <div class="mobile-config__lists">
+                    <ul>
+                        <li>TOPページ</li>
+                        <li>コーヒーハウスの想い</li>
+                        <li>バリスタ＆コーヒースペシャリスト</li>
+                        <li>御販売につて</li>
+                        <li>店舗情報</li>
+                        <li>店舗メニュー</li>
+                        <li>イベント＆セミナー</li>
+                        <li>お知らせ</li>
+                        <li>企業情報</li>
+                        <li>採用情報</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-config__store">
+                <div class="mobile-config__content dropdown-btn">
+                    <p>Online Store</p>
+                    <span>オンラインストアで買う</span>
+                    <i></i>
+                </div>
+                <div class="mobile-config__lists">
+                    <ul class="lists1">
+                        <li>オンラインストアTOP</li>
+                        <li>商品を探す</li>
+                        <li>コーヒー豆を探す</li>
+                        <li>ギフトを探す</li>
+                        <li>フードを探す</li>
+                        <li>その他の商品</li>                       
+                        <li>
+                            <span>新規会員登録</span>
+                            <span>ログイン</span>
+                        </li>
+                        <li>カートを見る</li>
+                        <li>ご利用ガイド</li>
+                        <li>俱楽部カードについて</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-config__footer">
+            <div class="mobile-config__footer-menu">
+                <span>お問い合わせ</span>
+                <span>ご利用規約</span>
+                <span>特定商取引法に基づく表示</span>
+                <span>プライバシーポリシー</span>
+                <span>推奨環境</span>
+            </div>
+            <div class="mobile-config__footer-socials">
+                <span>FollowUs</span>
+                <ul class="socials-icon">
+                    <img src="./Assets/img/instagram-svgrepo-com.svg" alt="">
+                    <img src="./Assets/img/facebook-svgrepo-com.svg" alt="">
+                    <img src="./Assets/img/twitter-svgrepo-com (1).svg" alt="">
+                    <img src="./Assets/img/youtube-svgrepo-com.svg" alt="">
+                </ul>
+            </div>
+            <div class="mobile-config__footer-btn">
+                お電話・FAXでのご注文の方はこちら➔
+            </div>
+            <div class="mobile-config__footer-copyright">
+                Copyright © 2019 COFFEE HOUSE Co.,Inc.
+                <br>
+                All Rights Reserved.
+            </div>
+        </div>
+    </div>
+
+
     <div class="followUs">
         <p class="followUs-tittle">
             followus
@@ -162,9 +252,25 @@
                     </a>
                 </div>
             </div>
+            <div class="home__news-mobile">
+                <div class="home__news-mobile-date">
+                    <div class="mobile-date">
+                        2022年04月07日
+                    </div>
+                    <div class="mobile-banner">
+                        メディア情報・出演
+                    </div>
+                </div>
+                <div class="home__news-mobile-body">
+                    掲載 : マイナビニュース4/6
+                </div>
+                <div class="home__news-mobile-link">
+                    NEWS一覧へ
+                </div>
+            </div>
         </div>
 
-        <div class="homeAbout" data-aos="fade-right" style="background-image: url(/Assets/img/7.jpg);">
+        <div class="homeAbout" style="background-image: url(/Assets/img/7.jpg);">
             <div class="homeAbout__header">
                 <span class="eng">
                     About
@@ -190,7 +296,7 @@
             </div>
         </div>
 
-        <div class="homeDiscover" data-aos="fade-left">
+        <div class="homeDiscover">
             <div class="homeDiscover__content" style="background-image: url(/Assets/img/42.jpg);">
                 <div class="homeDiscover__header">
                     SPECIAL CONTENTS
@@ -212,7 +318,7 @@
             </div>
         </div>
 
-        <div class="homeOnline" data-aos="fade-down-right">
+        <div class="homeOnline">
             <div class="homeOnline__header">
                 <span class="eng">ONLINE STORE</span>
                 <span class="jp">オンラインストア</span>
@@ -281,7 +387,7 @@
             </div>
         </div>
 
-        <div class="homeNews" data-aos="fade-up-left">
+        <div class="homeNews">
             <div class="homeNews__header">
                 <p>NEWS</p>
                 <h2>お知らせ</h2>
@@ -355,7 +461,7 @@
                 <p>TEL: 0267-26-5556 (受注センター 10:00〜17:00) </p>
             </div>
             <div class="footer__socials-icon">
-                <div class="footer__socials-icon-tittle">FOLLOW <br> US</div>
+                <div class="footer__socials-icon-tittle">FOLLOW US</div>
                 <div class="footer__socials-icons">
                     <svg class="svg-icon" viewBox="0 0 20 20">
                         <path fill="#DC143C" d="M9.969,0.594c-5.195,0-9.406,4.211-9.406,9.406c0,5.195,4.211,9.406,9.406,9.406c5.195,0,9.406-4.211,9.406-9.406C19.375,4.805,15.164,0.594,9.969,0.594 M9.969,18.552c-4.723,0-8.551-3.829-8.551-8.552s3.829-8.551,8.551-8.551S18.521,5.277,18.521,10S14.691,18.552,9.969,18.552 M12.534,5.724H7.403c-0.944,0-1.71,0.766-1.71,1.71v5.131c0,0.944,0.766,1.71,1.71,1.71h5.131c0.944,0,1.71-0.766,1.71-1.71V7.435C14.244,6.49,13.479,5.724,12.534,5.724M11.679,7.007h1.283V8.29h-1.283V7.007z M9.969,8.29c0.944,0,1.71,0.766,1.71,1.71s-0.766,1.71-1.71,1.71s-1.71-0.766-1.71-1.71S9.024,8.29,9.969,8.29 M13.39,12.565c0,0.472-0.384,0.854-0.855,0.854H7.403c-0.472,0-0.855-0.383-0.855-0.854V9.573h0.898C7.423,9.712,7.403,9.854,7.403,10c0,1.417,1.149,2.565,2.565,2.565c1.416,0,2.565-1.148,2.565-2.565c0-0.146-0.02-0.288-0.043-0.427h0.898V12.565z"></path>
