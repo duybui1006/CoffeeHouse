@@ -1055,6 +1055,7 @@
 }
 .mobile-config{
     display: none;
+    transition: max-height 0.2s ease-out;
 }
 
 #mobilemenu{
